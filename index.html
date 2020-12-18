@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Student Register</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <h3 style="margin-top: 20px;margin-bottom: 20px;"><b>List of Students in my Class</b></h3>
+            <div>
+                <span>1.</span>
+                <input type="text" placeholder="Student Name" id="student_name_1">
+                <br>
+                <span>2.</span>
+                <input type="text" placeholder="Student Name" id="student_name_2">
+                <br>
+                <span>3.</span>
+                <input type="text" placeholder="Student Name" id="student_name_3">
+                <br>
+                <span>4.</span>
+                <input type="text" placeholder="Student Name" id="student_name_4">
+                <br>
+                <button type="submit" value="Submit" onclick="submit()" id="button_submit">Submit</button>
+            </div>
+            <div id="display_name">
+            </div>
+            <button onclick="sorting()" id="sort_button">Sort</button>
+            <button onclick="back()" id="button_back">Back</button>
+        </center>
+    </body>
+</html>
